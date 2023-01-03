@@ -2,7 +2,7 @@ let request = require('./request.js');
 let https = require('https');
 let config = require('./config.js');
 
-let url = "https://logowanie.net.uw.edu.pl:6082/php/uid.php?vsys=2&rule=4";
+let url = "https://logowanie.net.uw.edu.pl:6082/php/uid.php?vsys=1&rule=1";
 
 let post = request(config.username, config.password)
 let post2 = new URLSearchParams(post).toString()
